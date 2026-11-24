@@ -1,0 +1,11 @@
+.acount{
+    flex-grow: 5;
+}
+
+.acount span{
+    color: black;
+}
+
+.acount a{
+    text-decoration: none;
+}
