@@ -1,14 +1,20 @@
-.search-nav > button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.search-nav > button,
+.acount > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body{
-    overflow-x: clip;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+body {
+  overflow-x: clip;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+:root {
+  --button-width: 80px;
 }

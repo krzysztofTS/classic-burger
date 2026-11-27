@@ -1,11 +1,30 @@
-.acount{
-    flex-grow: 5;
+.acount {
+  flex-grow: 5;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
 }
 
-.acount span{
-    color: black;
+.acount > a {
+  text-decoration: none;
+  font-weight: bold;
+  height: 40px;
+  width: var(--button-width);
+  border-radius: 14px;
 }
 
-.acount a{
-    text-decoration: none;
+.acount > a:first-child {
+  background-color: #c2410c;
+}
+
+.acount > a:first-child > span {
+  color: #ffffff;
+}
+
+.acount > a:last-child {
+  background-color: #fdece7;
+}
+
+.acount > a:last-child > span {
+  color: #b4381a;
 }
