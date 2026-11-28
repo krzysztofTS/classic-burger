@@ -17,4 +17,12 @@ body {
 
 :root {
   --button-width: 80px;
+  --text-color: #1a1a1a;
+  --big-card-text-color: #5e5e5e;
+  --smal-card-text-color: #6b6b6b;
+  --subsite-selected-color: #15803d;
+  --login-background-color: #c2410c;
+  --login-text-color: #ffffff;
+  --singup-background-color: #fdece7;
+  --singup-text-color: #b4381a;
 }

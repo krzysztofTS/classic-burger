@@ -1,3 +1,15 @@
 .subsites {
-    flex-basis: 100%;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subsites > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.subsites > a:nth-child(2) {
+  color: var(--subsite-selected-color);
 }

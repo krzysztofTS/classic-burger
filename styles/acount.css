@@ -14,17 +14,17 @@
 }
 
 .acount > a:first-child {
-  background-color: #c2410c;
+  background-color: var(--login-background-color);
 }
 
 .acount > a:first-child > span {
-  color: #ffffff;
+  color: var(--login-text-color);
 }
 
 .acount > a:last-child {
-  background-color: #fdece7;
+  background-color: var(--singup-background-color);
 }
 
 .acount > a:last-child > span {
-  color: #b4381a;
+  color: var(--singup-text-color);
 }
