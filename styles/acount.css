@@ -8,9 +8,9 @@
 .acount > a {
   text-decoration: none;
   font-weight: bold;
-  height: 40px;
-  width: var(--button-width);
-  border-radius: 14px;
+  height: var(--nav-height);
+  width: var(--acount-button-width);
+  border-radius: var(--rounding-buttons);
 }
 
 .acount > a:first-child {

@@ -16,13 +16,26 @@ body {
 }
 
 :root {
-  --button-width: 80px;
   --text-color: #1a1a1a;
   --big-card-text-color: #5e5e5e;
+  --big-card-background-color: #e8e8e8;
   --smal-card-text-color: #6b6b6b;
+  --small-card-backgound-color: #f6f6f6;
   --subsite-selected-color: #15803d;
   --login-background-color: #c2410c;
   --login-text-color: #ffffff;
   --singup-background-color: #fdece7;
   --singup-text-color: #b4381a;
+  --cart-background-color: #e3f1e7;
+  --cart-text-color: #166534;
+  --carrousel-active-color: #e8603c;
+  --carrousel-not-active-color: #d4d4d4;
+  --counter-small-card: #f2f2f2;
+  --counter-big-card: #e9e9e9;
+  --acount-button-width: 80px;
+  --rounding-big-card: 28px;
+  --rounding-small-card: 24px;
+  --rounding-buttons: 14px;
+  --rounding-chips: 10px;
+  --nav-height: 40px;
 }

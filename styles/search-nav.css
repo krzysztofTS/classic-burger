@@ -13,9 +13,9 @@
 
 .search-nav > button {
   width: 40px;
-  height: 40px;
+  height: var(--nav-height);
   border: none;
-  border-radius: 14px;
+  border-radius: var(--rounding-buttons);
 }
 
 .search-nav > button:last-child {

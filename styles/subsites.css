@@ -5,11 +5,17 @@
 }
 
 .subsites > a {
-  text-decoration: none;
+  height: 100%;
   font-weight: bold;
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .subsites > a:nth-child(2) {
   color: var(--subsite-selected-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
